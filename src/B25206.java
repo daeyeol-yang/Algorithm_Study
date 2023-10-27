@@ -8,16 +8,16 @@ public class B25206 {
         double sum=0;
         double result=0;
         double average;
+        double sum1=0;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         for (int i = 0; i < 20; i++) {
-
             String[] problem = br.readLine().split(" ");
-            System.out.println(problem[2]);
             double score = Double.valueOf(problem[1]);
             average = 0;
             for (int j = 0; j < s.length; j++) {
                 if (problem[2].equals("P")) {
-                    result++;
+                    problem[1]="0.0";
+                    continue;
                 }
                 if (problem[2].equals("F")) {
                     continue;
@@ -26,11 +26,10 @@ public class B25206 {
                 if (problem[2].equals(s[j])) {
                     average = 4.5 - j * (0.5);
                 }
-                sum += score * average;
             }
-
-
+            sum += score * average;
+            sum1 += Double.valueOf(problem[1]);
         }
-        System.out.println(sum/(20-result));
+        System.out.println(sum/sum1);
     }
 }
