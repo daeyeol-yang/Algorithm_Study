@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class B9541 {
+public class B9461 {
     private static long[] P =new long[101];
     public static void main(String[] args) {
         Scanner sc =  new Scanner(System.in);
