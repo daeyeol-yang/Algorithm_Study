@@ -1,0 +1,13 @@
+
+Q
+java:S10660"/Merge this if statement with the enclosing one.(Ò¨½›ıÿÿÿÿ8ÍìÀãº1
+7
+java:S1220""Move this file to a named package.8ÎìÀãº1
+n
+java:S3008"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûîèõşÿÿÿÿ8€íÀãº1
+n
+java:S3008"LRename this field "M" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ï¹Åüÿÿÿÿ8€íÀãº1
+L	java:S106#"+Replace this use of System.out by a logger.(–¾ÿÿıÿÿÿÿ8„íÀãº1
+j	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ‚­—8„íÀãº1
+L
+java:S1197+"*Move the array designators [] to the type.(“ªß×şÿÿÿÿ8…íÀãº1
