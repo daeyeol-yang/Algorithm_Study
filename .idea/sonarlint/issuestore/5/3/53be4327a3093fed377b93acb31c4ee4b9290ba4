@@ -1,0 +1,11 @@
+
+r	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂšŸüÿÿÿÿ8àë©°¼1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»»¦üÿÿÿÿ8àë©°¼1
+7
+java:S1220""Move this file to a named package.8àë©°¼1
+`
+java:S3518"CMake sure this expression can't be zero before doing this division.(Äüœ8õë©°¼1
+L
+java:S1197"*Move the array designators [] to the type.(Œ¥§üÿÿÿÿ8øë©°¼1
+F	java:S106!"+Replace this use of System.out by a logger.(ü„ê!8’šª°¼1

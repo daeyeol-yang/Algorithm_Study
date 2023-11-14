@@ -1,0 +1,16 @@
+
+z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ƒèğÒøÿÿÿÿ8×ƒ„²¼1
+r	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂšŸüÿÿÿÿ8Øƒ„²¼1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â—€8Øƒ„²¼1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øğ³ıÿÿÿÿ8Øƒ„²¼1
+7
+java:S1220""Move this file to a named package.8Øƒ„²¼1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(œû¿Ø8‘„„²¼1
+G
+java:S1197"*Move the array designators [] to the type.(İÙÜ¢8“„„²¼1
+G
+java:S1197"*Move the array designators [] to the type.(Çßê‹8“„„²¼1
+F	java:S106'"+Replace this use of System.out by a logger.(âë½i8”„„²¼1
+L	java:S1067"+Replace this use of System.out by a logger.(æ–İ€ÿÿÿÿÿ8°Ü†²¼1
