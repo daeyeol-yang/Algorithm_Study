@@ -31,7 +31,7 @@ public class B1076 {
             }
 
         }
-        int solution = (int) (Integer.parseInt(String.valueOf(n1).concat(String.valueOf(n2)))*Math.pow(10,n3));
+        Long solution = (long) (Integer.parseInt(String.valueOf(n1).concat(String.valueOf(n2)))*Math.pow(10,n3));
 
         System.out.println(solution);
     }
