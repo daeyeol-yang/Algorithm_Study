@@ -1,0 +1,20 @@
+
+Q
+java:S3740"/Provide the parametrized type for this generic.(Ö¾¾ûÿÿÿÿ8ÁÑ¯Ïå1
+Q
+java:S3740"/Provide the parametrized type for this generic.(Ö¾¾ûÿÿÿÿ8ÂÑ¯Ïå1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÇóëûÿÿÿÿ8ÂÑ¯Ïå1
+7
+java:S1220""Move this file to a named package.8ÂÑ¯Ïå1
+o
+java:S3776	"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(œû¿Ø8ŞÑ¯Ïå1
+C	java:S131""Add a default case to this switch.(’½¢Òşÿÿÿÿ8áÑ¯Ïå1
+L	java:S106"+Replace this use of System.out by a logger.(¡ò†şÿÿÿÿ8áÑ¯Ïå1
+L	java:S106"+Replace this use of System.out by a logger.(ÄÎ®…úÿÿÿÿ8áÑ¯Ïå1
+G	java:S106#"+Replace this use of System.out by a logger.(Ä¬™ç8áÑ¯Ïå1
+L	java:S106'"+Replace this use of System.out by a logger.(ìÑÑÈÿÿÿÿÿ8áÑ¯Ïå1
+L	java:S106)"+Replace this use of System.out by a logger.(óŠÕÎÿÿÿÿÿ8âÑ¯Ïå1
+L	java:S106."+Replace this use of System.out by a logger.(¡ò†şÿÿÿÿ8âÑ¯Ïå1
+G	java:S1061"+Replace this use of System.out by a logger.(öçƒ×8âÑ¯Ïå1
+L	java:S1066"+Replace this use of System.out by a logger.(¡ò†şÿÿÿÿ8âÑ¯Ïå1
+G	java:S106<"+Replace this use of System.out by a logger.(öçƒ×8âÑ¯Ïå1
