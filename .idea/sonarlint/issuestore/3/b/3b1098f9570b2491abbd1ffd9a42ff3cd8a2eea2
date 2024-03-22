@@ -1,0 +1,9 @@
+
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Š›ÒÏşÿÿÿÿ8Š×°¢æ1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÇóëûÿÿÿÿ8Š×°¢æ1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á®“ì8Š×°¢æ1
+7
+java:S1220""Move this file to a named package.8Š×°¢æ1
+L	java:S106 "+Replace this use of System.out by a logger.(­ËÖşÿÿÿÿ8ßû°¢æ1
+]	java:S125""<This block of commented-out lines of code should be removed.(Ò¹©Ïúÿÿÿÿ8’×°¢æ1
