@@ -1,0 +1,15 @@
+
+r	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÇóëûÿÿÿÿ8§…–®æ1
+7
+java:S1220""Move this file to a named package.8§…–®æ1
+_
+java:S1854"=Remove this useless assignment to local variable "nameValue".(³Íùšýÿÿÿÿ8«…–®æ1
+W
+java:S1854":Remove this useless assignment to local variable "ageKey".(ç›¸Œ8«…–®æ1
+H
+java:S1481"+Remove this unused "ageKey" local variable.(ç›¸Œ8­…–®æ1
+P
+java:S1481".Remove this unused "nameValue" local variable.(³Íùšýÿÿÿÿ8­…–®æ1
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8­…–®æ1
