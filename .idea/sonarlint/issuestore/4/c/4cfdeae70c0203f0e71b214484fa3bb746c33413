@@ -1,15 +1,9 @@
 
-r	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÇóëûÿÿÿÿ8§…–®æ1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÇóëûÿÿÿÿ8ÔïÁÕæ1
+J
+java:S1604"(Make this anonymous inner class a lambda(éÉöüÿÿÿÿ8ÕïÁÕæ1
 7
-java:S1220""Move this file to a named package.8§…–®æ1
-_
-java:S1854"=Remove this useless assignment to local variable "nameValue".(³Íùšıÿÿÿÿ8«…–®æ1
-W
-java:S1854":Remove this useless assignment to local variable "ageKey".(ç›¸Œ8«…–®æ1
-H
-java:S1481"+Remove this unused "ageKey" local variable.(ç›¸Œ8­…–®æ1
+java:S1220""Move this file to a named package.8ÕïÁÕæ1
+L	java:S106$"+Replace this use of System.out by a logger.(­ËÖşÿÿÿÿ8ßïÁÕæ1
 P
-java:S1481".Remove this unused "nameValue" local variable.(³Íùšıÿÿÿÿ8­…–®æ1
-P
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8­…–®æ1
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ßïÁÕæ1
