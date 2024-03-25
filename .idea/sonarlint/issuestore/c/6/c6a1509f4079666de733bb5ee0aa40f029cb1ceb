@@ -1,0 +1,9 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÇóëûÿÿÿÿ8—êÆ˜ç1
+7
+java:S1220""Move this file to a named package.8˜êÆ˜ç1
+L	java:S106"+Replace this use of System.out by a logger.(­ËÖşÿÿÿÿ8§êÆ˜ç1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8§êÆ˜ç1
+N
+java:S1128"1Remove this unused import 'java.util.Comparator'.(î¹ó¹8§êÆ˜ç1
