@@ -1,0 +1,20 @@
+
+Q
+java:S3740
+"/Provide the parametrized type for this generic.(â¨ý™ÿÿÿÿÿ8´Ë¡ëç1
+Q
+java:S3740
+"/Provide the parametrized type for this generic.(â¨ý™ÿÿÿÿÿ8´Ë¡ëç1
+z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ŽÚšïüÿÿÿÿ8›À¤ëç1
+z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ8´Ë¡ëç1
+7
+java:S1220""Move this file to a named package.8´Ë¡ëç1
+r
+java:S1149
+"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(â¨ý™ÿÿÿÿÿ8·Ë¡ëç1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(œû¿Ø8·Ë¡ëç1
+X	java:S1250"<This block of commented-out lines of code should be removed.(Ð™‚‘8äÞ¥ðç1
+F	java:S1063"+Replace this use of System.out by a logger.(À®ù8ì‰’ðç1
+L	java:S1069"+Replace this use of System.out by a logger.(…ùŸàýÿÿÿÿ8¿—ðç1
+F	java:S106;"+Replace this use of System.out by a logger.(À®ù8öòœðç1
