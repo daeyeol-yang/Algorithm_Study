@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Stack;
@@ -9,45 +10,49 @@ import java.util.StringTokenizer;
 public class B1966 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder sb = new StringBuilder();
         int T = Integer.parseInt(br.readLine());
-        Queue queue;
         for (int i = 0; i < T; i++) {
-            int solution=0;
             StringTokenizer st = new StringTokenizer(br.readLine());
-            int T2 = Integer.parseInt(st.nextToken());
-            int n = Integer.parseInt(st.nextToken());
-            queue = new PriorityQueue();
-            st = new StringTokenizer(br.readLine());
-            for (int j = 0; j < T2; j++) {
-                int n1 = Integer.parseInt(st.nextToken());
-                if(j==n){
-                solution=n1;
+            int size = Integer.parseInt(st.nextToken());
+            int count = Integer.parseInt(st.nextToken());
+            st= new StringTokenizer(br.readLine());
+            LinkedList<int[]> myqueue = new LinkedList();
+            for (int j = 0; j < size; j++) {
+                myqueue.offer(new int[] {j, Integer.parseInt(st.nextToken())});
+            }
+
+            int count1 = 0;
+
+            while (!myqueue.isEmpty()) {
+                int[] front = myqueue.poll();
+                boolean isMax = true;
+
+                for (int j = 0; j < myqueue.size(); j++) {
+                    if (front[1] < myqueue.get(j)[1]) {
+                        myqueue.offer(front);
+
+                        for (int k = 0; k < j; k++) {
+                            myqueue.offer(myqueue.poll());
+                        }
+                        isMax = false;
+                        break;
+                    }
                 }
-                queue.offer(n1);
+                if (isMax == false) {
+                    continue;
+                }
+                count1++;
+                if (front[0] == count) {
+                    break;
+                }
 
             }
-            System.out.println(solved(queue,solution));
+
+            sb.append(count1).append('\n');
+
+
         }
-
-    }
-
-    public static int solved(Queue queue, int solution){
-        boolean check = false;
-        int returnSolution=0;
-        int size = queue.size();
-        for (int i = 0; i < size; i++) {
-            if(solution==(int)queue.poll()){
-                check=true;
-                returnSolution=i;
-                break;
-
-            }
-        }
-        if(check){
-            return size-returnSolution;
-        }else
-            return 0;
-
-
+        System.out.println(sb);
     }
 }
