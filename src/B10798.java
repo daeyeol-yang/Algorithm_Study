@@ -16,10 +16,9 @@ public class B10798 {
 
         for (int i = 0; i < 15; i++) {
             for (int j = 0; j < 5; j++) {
-                if(arr[j][i]==' '||arr[j][i]=='\0'){
-                    continue;
+                if(arr[j][i]!=' '&&arr[j][i]!='\0'){
+                    sb.append(arr[j][i]);
                 }
-                sb.append(arr[j][i]);
             }
         }
 
