@@ -1,0 +1,10 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Ç”„ûÿÿÿÿ8Üâ–½ë1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ¹÷8Üâ–½ë1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»»¦üÿÿÿÿ8Üâ–½ë1
+i	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Çúºë8İâ–½ë1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¥—Üà8İâ–½ë1
+L	java:S106*"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8çâ–½ë1
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8ëË®½ë1
