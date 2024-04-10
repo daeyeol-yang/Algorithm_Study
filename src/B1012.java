@@ -36,7 +36,7 @@ public class B1012 {
             for (int j = 0; j < N; j++) {
                 for (int k = 0; k < M; k++) {
                     if(arr[j][k]==1 && !visited[j][k]){
-                        dfs(j,k);
+                        dfs(k,j);
                         count++;
                     }
                 }
