@@ -1,0 +1,10 @@
+
+l	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÆöF8Üá¡‰í1
+m	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øÿ†8Üá¡‰í1
+7
+java:S1220""Move this file to a named package.8Üá¡‰í1
+n
+java:S3008"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûîèõşÿÿÿÿ8â¡‰í1
+L	java:S1066"+Replace this use of System.out by a logger.(­ËÖşÿÿÿÿ8‰¢‰í1
+X
+java:S1128"6Remove this unused import 'java.util.StringTokenizer'.(ÈÄ¬ñşÿÿÿÿ8½µ‰í1
