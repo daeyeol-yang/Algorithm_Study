@@ -1,0 +1,12 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ֲüÿÿÿÿ8ûצ¸דמ1
+0
+java:S1220""Move this file to a named package.
+X
+java:S1854";Remove this useless assignment to local variable "chicken".(ן‹צ„8‰ק¸דמ1
+W
+java:S1854"5Remove this useless assignment to local variable "N".(ֲüÿÿÿÿ8שק»דמ1
+H
+java:S1481"&Remove this unused "N" local variable.(ֲüÿÿÿÿ8ק¸דמ1
+I
+java:S1481",Remove this unused "chicken" local variable.(ן‹צ„8תק»דמ1
