@@ -1,5 +1,6 @@
 
-0
-java:S1220""Move this file to a named package.
-W
-java:S2094"BRemove this empty class, write its code or make it an "interface".(‘”5
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Βόÿÿÿÿ8ξεώ‰π1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»»¦όÿÿÿÿ8ξεώ‰π1
+7
+java:S1220""Move this file to a named package.8ξεώ‰π1
+F	java:S106."+Replace this use of System.out by a logger.(τΨ8Ξ‚π1
