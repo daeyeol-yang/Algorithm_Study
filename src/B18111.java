@@ -12,6 +12,12 @@ public class B18111 {
         int M = Integer.parseInt(st.nextToken());
         int [][]map = new int[N][M];
         int inventory = Integer.parseInt(st.nextToken());
+        for (int i = 0; i < N; i++) {
+            st = new StringTokenizer(br.readLine());
+            for (int j = 0; j < M; j++) {
+                map[i][j] = Integer.parseInt(st.nextToken());
+            }
+        }
 
 
 
