@@ -1,0 +1,14 @@
+
+z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(οÿÿÿÿÿ8›έρ1
+m	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΐο®σ8™›έρ1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ωγ©8™›έρ1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€…ϋγόÿÿÿÿ8™›έρ1
+7
+java:S1220""Move this file to a named package.8™›έρ1
+F	java:S106"+Replace this use of System.out by a logger.(θÿw8›έρ1
+F	java:S106""+Replace this use of System.out by a logger.(θÿw8›έρ1
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™”€ωÿÿÿÿ8›έρ1
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒάΕΈϊÿÿÿÿ8›έρ1
