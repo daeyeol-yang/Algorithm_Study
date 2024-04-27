@@ -225,3 +225,13 @@ E
 src/B11399.java,2/7/27bbdf557e6639b862cb499ba8a39835bb9b88c4
 ?
 src/B18870.java,e/1/e164e1fe93936ffc2002de6fe8f0ad2d68b677db
+>
+src/B1193.java,2/c/2cb1f568350a4db28a7d18350ec7f5ecd7198fd0
+?
+src/B14940.java,9/6/96595f9d3cf3753944f78f960c7d1dc637f3d84c
+>
+src/B1697.java,f/6/f63c76656d73432cc9ca80d214e593def4f5c4fe
+S
+#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
