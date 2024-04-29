@@ -1,14 +1,14 @@
 
 L
-java:S10665"/Merge this if statement with the enclosing one.(—ÁÁ½8£‰ãòñ1
+java:S10666"/Merge this if statement with the enclosing one.(—ÁÁ½8£‰ãòñ1
 L
-java:S1066?"/Merge this if statement with the enclosing one.(—ÁÁ½8£‰ãòñ1
+java:S1066@"/Merge this if statement with the enclosing one.(—ÁÁ½8£‰ãòñ1
 L
-java:S1066G"/Merge this if statement with the enclosing one.(—ÁÁ½8£‰ãòñ1
-m	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïƒ€ï8£‰ãòñ1
-r	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éŒ‘ùÿÿÿÿ8¤‰ãòñ1
+java:S1066H"/Merge this if statement with the enclosing one.(—ÁÁ½8£‰ãòñ1
+m	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïƒ€ï8£‰ãòñ1
+r	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éŒ‘ùÿÿÿÿ8¤‰ãòñ1
 7
 java:S1220""Move this file to a named package.8¤‰ãòñ1
-G	java:S106 "+Replace this use of System.out by a logger.(×¯¢Í8©‰ãòñ1
+G	java:S106!"+Replace this use of System.out by a logger.(×¯¢Í8©‰ãòñ1
 o
-java:S3776%"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(À¥¸‘8ª‰ãòñ1
+java:S3776&"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(À¥¸‘8ª‰ãòñ1

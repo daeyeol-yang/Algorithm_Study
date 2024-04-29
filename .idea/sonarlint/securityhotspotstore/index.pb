@@ -235,3 +235,7 @@ S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
+>
+src/B1927.java,c/a/ca0b82ef1f6b6c570882aec17e15b11c457e9fba
+?
+src/B11279.java,3/3/3324043a83ea5215ecbf88d00d4222171e49d871
