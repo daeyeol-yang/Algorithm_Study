@@ -1,0 +1,16 @@
+
+m	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞïŒ8ŒœĞ¦ô1
+r	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤áâªøÿÿÿÿ8œĞ¦ô1
+l	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÆöF8œĞ¦ô1
+m	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øÿ†8œĞ¦ô1
+m	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş”åĞ8œĞ¦ô1
+r	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Øšûÿÿÿÿ8œĞ¦ô1
+7
+java:S1220""Move this file to a named package.8œĞ¦ô1
+n
+java:S3008"LRename this field "M" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ï¹Åüÿÿÿÿ8ãœĞ¦ô1
+n
+java:S3008"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûîèõşÿÿÿÿ8ãœĞ¦ô1
+X	java:S1250"<This block of commented-out lines of code should be removed.(şšîÑ8éÑ¦ô1
+G	java:S1064"+Replace this use of System.out by a logger.(íÛ‚·8çœĞ¦ô1
+L	java:S1066"+Replace this use of System.out by a logger.(³ğ¸ûÿÿÿÿ8çœĞ¦ô1
