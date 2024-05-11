@@ -303,3 +303,9 @@ F
 src/백준/B11727.java,b/d/bd8e60632a055526df2d08af77e4e3d9481a14ab
 E
 src/백준/B2630.java,5/5/552ccf1a629612e3ca20b10231d9ebaa3008604b
+D
+src/SWEA/S13299.java,9/f/9fc1521c13a00315e9aa2813141b3022de0f83e9
+G
+src/SWEA/D3/S13299.java,7/a/7afae635cb59c1a965cb0cee98fc87a00bcd4955
+F
+src/SWEA/D3/S6913.java,9/d/9da3fc6eaea4bd553e88a28720bda606059e07ce
