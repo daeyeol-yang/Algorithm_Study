@@ -1,0 +1,24 @@
+
+r	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÆÆÎøÿÿÿÿ8©™ªÕø1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ÑÑ™8«™ªÕø1
+]	java:S125"<This block of commented-out lines of code should be removed.(‘Ç»¯øÿÿÿÿ8Ó™ªÕø1
+
+java:S1130-"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(íä¸üÿÿÿÿ8Õ™ªÕø1
+L
+java:S1197-"*Move the array designators [] to the type.(íä¸üÿÿÿÿ8Õ™ªÕø1
+W	java:S1256"<This block of commented-out lines of code should be removed.(“¥08Õ™ªÕø1
+G	java:S106U"+Replace this use of System.out by a logger.(¶‡À8Û™ªÕø1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8œ¥—Öø1
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8œ¥—Öø1
+N
+java:S1128 "1Remove this unused import 'java.util.Comparator'.(î¹ó¹8œ¥—Öø1
+M
+java:S1128!"1Remove this unused import 'java.util.LinkedList'.(»Äğ18œ¥—Öø1
+M
+java:S1128""+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8œ¥—Öø1
+I
+java:S1128#",Remove this unused import 'java.util.Queue'.(Äá™ô8œ¥—Öø1
+Q
+java:S1128%"4Remove this unused import 'java.io.FileInputStream'.(˜³ÉÓ8¥—Öø1

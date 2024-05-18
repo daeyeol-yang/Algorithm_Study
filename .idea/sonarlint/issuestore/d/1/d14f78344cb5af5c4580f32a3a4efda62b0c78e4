@@ -1,0 +1,14 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨´ÑÒşÿÿÿÿ8ø±ğâö1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ÑÑ™8ù±ğâö1
+r
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(û›şöıÿÿÿÿ8ˆ²ğâö1
+L	java:S106."+Replace this use of System.out by a logger.(­ËÖşÿÿÿÿ8‹²ğâö1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8‹²ğâö1
+M
+java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äğ18‹²ğâö1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8‹²ğâö1
+I
+java:S1128	",Remove this unused import 'java.util.Queue'.(Äá™ô8‹²ğâö1

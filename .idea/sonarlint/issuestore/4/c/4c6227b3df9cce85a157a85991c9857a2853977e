@@ -1,12 +1,0 @@
-
-v
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Á§æ¸8¾õäÕò1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÇóëûÿÿÿÿ8¿õäÕò1
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ïšÄ8¿õäÕò1
-E
-java:S1604"(Make this anonymous inner class a lambda(Á§æ¸8¿õäÕò1
-7
-java:S1220""Move this file to a named package.8¿õäÕò1
-L	java:S106*"+Replace this use of System.out by a logger.(­ËÖşÿÿÿÿ8ŒÕçÕò1
-T
-java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8ÇõäÕò1

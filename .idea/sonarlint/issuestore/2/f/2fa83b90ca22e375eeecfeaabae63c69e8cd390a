@@ -1,0 +1,17 @@
+
+r	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÆÆÎøÿÿÿÿ8¢ƒÓ®ø1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ÑÑ™8£ƒÓ®ø1
+]	java:S125"<This block of commented-out lines of code should be removed.(‘Ç»¯øÿÿÿÿ8§ƒÓ®ø1
+n
+java:S3008)"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûîèõþÿÿÿÿ8¨ƒÓ®ø1
+k
+java:S3008+"NRename this field "Max" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÙ¼‰8¨ƒÓ®ø1
+Ž
+java:S1130."lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(íä¸üÿÿÿÿ8©ƒÓ®ø1
+L
+java:S1197."*Move the array designators [] to the type.(íä¸üÿÿÿÿ8©ƒÓ®ø1
+W	java:S1257"<This block of commented-out lines of code should be removed.(ž“¥08©ƒÓ®ø1
+F	java:S106P"+Replace this use of System.out by a logger.(²ùÕ~8«ƒÓ®ø1
+]	java:S125S"<This block of commented-out lines of code should be removed.(Â°Á§ýÿÿÿÿ8«ƒÓ®ø1
+Q
+java:S1128"4Remove this unused import 'java.io.FileInputStream'.(˜³ÉÓ8«ƒÓ®ø1

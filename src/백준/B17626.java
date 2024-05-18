@@ -16,27 +16,15 @@ public class B17626 {
         dp[2]=2;
         dp[3]=3;
         dp[4]=1;
-        int n=3;
-        boolean check=false;
-        while (Math.pow(n,2)<50000){
-            for (int i = 5; i <=50000 ; i++) {
-
-
-                if(i==(int)(Math.pow(n,2))){
-                    check=true;
-                    break;
-                }
-                dp[i]=dp[i-(int)Math.pow((n-1),2)]+1;
-
+        for (int i = 2; i <=N ; i++) {
+            int min =Integer.MAX_VALUE;
+            for (int j = 1; j*j <= i ; j++) {
+                min=Math.min(dp[i-j*j]+1,min);
             }
-            if(check){
-                n++;
-                check=false;
-            }
+            dp[i]=min;
         }
 
-
-
         System.out.println(dp[N]);
+
     }
 }

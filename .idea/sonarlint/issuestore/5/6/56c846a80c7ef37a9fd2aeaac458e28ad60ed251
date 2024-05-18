@@ -1,0 +1,16 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÙÜö8ñ€±€ø1
+n
+java:S3008
+"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûîèõşÿÿÿÿ8ˆ±€ø1
+k
+java:S3008"NRename this field "Max" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÙ¼‰8ˆ±€ø1
+k
+java:S3008"NRename this field "Min" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·¬ï³8ˆ±€ø1
+G	java:S106!"+Replace this use of System.out by a logger.(õ°†ø8Š±€ø1
+L	java:S106""+Replace this use of System.out by a logger.(ƒæ¬¸øÿÿÿÿ8‹±€ø1
+G	java:S106'"+Replace this use of System.out by a logger.(ÕÊÃĞ8‹±€ø1
+L	java:S106."+Replace this use of System.out by a logger.(Ô¾šİùÿÿÿÿ8‹±€ø1
+=	java:S1310""Add a default case to this switch.(ìúÇV8‹±€ø1
+L	java:S106J"+Replace this use of System.out by a logger.(êëİœüÿÿÿÿ8›ø±€ø1
+]	java:S125K"<This block of commented-out lines of code should be removed.(«Ë¸ñıÿÿÿÿ8†øÀ€ø1

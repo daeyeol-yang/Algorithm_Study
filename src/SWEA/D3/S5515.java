@@ -27,12 +27,6 @@ package SWEA.D3;
 //System.out.println(var);		       				   // 문자열 1개 출력하는 예제
 //System.out.println(AB);		       				     // long 변수 1개 출력하는 예제
 /////////////////////////////////////////////////////////////////////////////////////////////
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
 import java.util.Scanner;
 import java.io.FileInputStream;
 
@@ -40,7 +34,7 @@ import java.io.FileInputStream;
    사용하는 클래스명이 Solution 이어야 하므로, 가급적 Solution.java 를 사용할 것을 권장합니다.
    이러한 상황에서도 동일하게 java Solution 명령으로 프로그램을 수행해볼 수 있습니다.
  */
-class S3304
+class S5515
 {
     public static void main(String args[]) throws Exception
     {
@@ -62,27 +56,22 @@ class S3304
 		/*
 		   여러 개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
 		*/
-
+        int [] C  ={0,31,29,31,30,31,30,31,31,30,31,30,31};
+        int []day = {3,4,5,6,0,1,2};
         for(int test_case = 1; test_case <= T; test_case++)
         {
 
-            String s1 = sc.next();
-            String s2 = sc.next();
-
-           int[][] dp = new int[s1.length()+1][s2.length()+1];
-
-            for (int i = 1; i <=s1.length() ; i++) {
-                for (int j = 1; j <=s2.length() ; j++) {
-                    if (s1.charAt(i-1) == s2.charAt(j-1)) {
-                       dp[i][j]= dp[i-1][j-1]+1;
-                    }else{
-                        dp[i][j]= Math.max(dp[i-1][j], dp[i][j-1]);
-                    }
-                }
+            int M = sc.nextInt();
+            int D = sc.nextInt();
+            int solution =0;
+            for (int i = 1; i <= M; i++) {
+                solution+=C[i-1];
             }
+            solution+=D;
+            int solution1= solution%7;
 
+            System.out.println("#"+test_case+ " "+day[solution1]);
 
-            System.out.println("#"+test_case+" "+dp[s1.length()][s2.length()]);
 
             /////////////////////////////////////////////////////////////////////////////////////////////
 			/*

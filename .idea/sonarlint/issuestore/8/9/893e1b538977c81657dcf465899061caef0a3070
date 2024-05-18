@@ -1,14 +1,0 @@
-
-L
-java:S10667"/Merge this if statement with the enclosing one.(Í§ÃÊ8ÂÚûÂì1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÇóëûÿÿÿÿ8ÂÚûÂì1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»»¦üÿÿÿÿ8ÂÚûÂì1
-l	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÆöF8ÂÚûÂì1
-m	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øÿ†8ÂÚûÂì1
-7
-java:S1220""Move this file to a named package.8ÃÚûÂì1
-n
-java:S3008"LRename this field "M" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ï¹Åüÿÿÿÿ8òÚûÂì1
-n
-java:S3008"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûîèõşÿÿÿÿ8òÚûÂì1
-L	java:S106-"+Replace this use of System.out by a logger.(³ğ¸ûÿÿÿÿ8»Ä‘Ãì1

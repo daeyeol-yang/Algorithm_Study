@@ -1,0 +1,12 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÇóëûÿÿÿÿ8´ãÅö1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ÑÑ™8µãÅö1
+]
+java:S1854";Remove this useless assignment to local variable "hashMap".(İ„ª–ûÿÿÿÿ8ÛãÅö1
+N
+java:S1481",Remove this unused "hashMap" local variable.(İ„ª–ûÿÿÿÿ8İãÅö1
+L	java:S106/"+Replace this use of System.out by a logger.(­ËÖşÿÿÿÿ8¹ãÅö1
+L
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ8İãÅö1
+L
+java:S1128	"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8İãÅö1

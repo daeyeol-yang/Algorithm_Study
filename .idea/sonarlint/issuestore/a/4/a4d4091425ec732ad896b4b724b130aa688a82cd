@@ -1,0 +1,18 @@
+
+r	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÆÆÎøÿÿÿÿ8ğÍÓ©ø1
+r	java:S117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂšŸüÿÿÿÿ8ğÍÓ©ø1
+m	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÓüá8ğÍÓ©ø1
+J
+java:S1604s"(Make this anonymous inner class a lambda(«Ï©£ÿÿÿÿÿ8ğÍÓ©ø1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ÑÑ™8ñÍÓ©ø1
+]	java:S125"<This block of commented-out lines of code should be removed.(‘Ç»¯øÿÿÿÿ8¾ÎÓ©ø1
+t
+java:S3776-"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(íä¸üÿÿÿÿ8¿ÎÓ©ø1
+L
+java:S1197-"*Move the array designators [] to the type.(íä¸üÿÿÿÿ8¿ÎÓ©ø1
+W	java:S1256"<This block of commented-out lines of code should be removed.(“¥08¿ÎÓ©ø1
+M	java:S106ˆ"+Replace this use of System.out by a logger.(‹Ğ¦œıÿÿÿÿ8ÂÎÓ©ø1
+P
+java:S1128#".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8•Îó©ø1
+Q
+java:S1128$"4Remove this unused import 'java.io.FileInputStream'.(˜³ÉÓ8ÂÎÓ©ø1

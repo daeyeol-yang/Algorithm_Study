@@ -28,11 +28,7 @@ package SWEA.D3;
 //System.out.println(AB);		       				     // long 변수 1개 출력하는 예제
 /////////////////////////////////////////////////////////////////////////////////////////////
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 import java.util.Scanner;
 import java.io.FileInputStream;
 
@@ -40,7 +36,7 @@ import java.io.FileInputStream;
    사용하는 클래스명이 Solution 이어야 하므로, 가급적 Solution.java 를 사용할 것을 권장합니다.
    이러한 상황에서도 동일하게 java Solution 명령으로 프로그램을 수행해볼 수 있습니다.
  */
-class S3304
+class S8556
 {
     public static void main(String args[]) throws Exception
     {
@@ -63,26 +59,68 @@ class S3304
 		   여러 개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
 		*/
 
+
         for(int test_case = 1; test_case <= T; test_case++)
         {
 
-            String s1 = sc.next();
-            String s2 = sc.next();
+            String s = sc.next();
+            int westCount =0;
+            int northCount=0;
 
-           int[][] dp = new int[s1.length()+1][s2.length()+1];
+            List<String> mylist = new ArrayList<>();
+            int i=0;
+            while (i<s.length()){
+                if(s.charAt(i)=='n'){
+                    northCount++;
+                    mylist.add("north");
 
-            for (int i = 1; i <=s1.length() ; i++) {
-                for (int j = 1; j <=s2.length() ; j++) {
-                    if (s1.charAt(i-1) == s2.charAt(j-1)) {
-                       dp[i][j]= dp[i-1][j-1]+1;
-                    }else{
-                        dp[i][j]= Math.max(dp[i-1][j], dp[i][j-1]);
-                    }
+                    i+=5;
+                }else{
+                    mylist.add("west");
+                    westCount++;
+                    i+=4;
                 }
             }
 
+            double a=0;
 
-            System.out.println("#"+test_case+" "+dp[s1.length()][s2.length()]);
+            for (int j = 0; j < mylist.size() ; j++) {
+                if(mylist.get(mylist.size()-j-1).equals("west")){
+                    if(j == 0){
+                        a=90;
+                    }else{
+
+                        a += (90 / Math.pow(2, j));
+                    }
+                }else{
+                    if(j == 0){
+                        a=0;
+                    }else {
+                        a -= (90 / Math.pow(2, j));
+                    }
+                }
+            }
+            int b=0;
+
+
+            while (true){
+                if(a==(int)a){
+                    break;
+                }
+                a*=2;
+                b++;
+            }
+
+            StringBuilder sb = new StringBuilder();
+
+            sb.append("#").append(test_case).append(" ").append((int)a);
+            if(b>0){
+                sb.append("/").append((int)Math.pow(2,b));
+            }
+
+            System.out.println(sb);
+
+
 
             /////////////////////////////////////////////////////////////////////////////////////////////
 			/*

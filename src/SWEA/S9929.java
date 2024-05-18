@@ -1,4 +1,4 @@
-package SWEA.D3;
+package SWEA;
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 // 기본 제공코드는 임의 수정해도 관계 없습니다. 단, 입출력 포맷 주의
@@ -27,21 +27,24 @@ package SWEA.D3;
 //System.out.println(var);		       				   // 문자열 1개 출력하는 예제
 //System.out.println(AB);		       				     // long 변수 1개 출력하는 예제
 /////////////////////////////////////////////////////////////////////////////////////////////
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
 import java.util.Scanner;
-import java.io.FileInputStream;
+//import java.io.FileInputStream;
 
 /*
    사용하는 클래스명이 Solution 이어야 하므로, 가급적 Solution.java 를 사용할 것을 권장합니다.
    이러한 상황에서도 동일하게 java Solution 명령으로 프로그램을 수행해볼 수 있습니다.
  */
-class S3304
+class S9929
 {
+
+    static int N, M;
+    static int[] arr;
+
+    static int[] arr1;
+    static boolean[] visited;
+
+    static int Max = 0;
+
     public static void main(String args[]) throws Exception
     {
 		/*
@@ -65,24 +68,26 @@ class S3304
 
         for(int test_case = 1; test_case <= T; test_case++)
         {
+            N = sc.nextInt();
+            M = sc.nextInt();
+            arr = new int[N];
+            visited = new boolean[N];
+            arr1= new int[3];
 
-            String s1 = sc.next();
-            String s2 = sc.next();
-
-           int[][] dp = new int[s1.length()+1][s2.length()+1];
-
-            for (int i = 1; i <=s1.length() ; i++) {
-                for (int j = 1; j <=s2.length() ; j++) {
-                    if (s1.charAt(i-1) == s2.charAt(j-1)) {
-                       dp[i][j]= dp[i-1][j-1]+1;
-                    }else{
-                        dp[i][j]= Math.max(dp[i-1][j], dp[i][j-1]);
-                    }
-                }
+            for (int i = 0; i < N; i++) {
+                arr[i]= sc.nextInt();
             }
 
+            dfs(0);
 
-            System.out.println("#"+test_case+" "+dp[s1.length()][s2.length()]);
+            if(Max==0){
+                System.out.println("#"+test_case+" "+-1);
+            }else{
+
+                System.out.println("#"+test_case+" "+Max);
+            }
+            Max =0;
+
 
             /////////////////////////////////////////////////////////////////////////////////////////////
 			/*
@@ -91,5 +96,30 @@ class S3304
             /////////////////////////////////////////////////////////////////////////////////////////////
 
         }
+    }
+
+    static void dfs(int depth){
+        int sum =0;
+
+        if(depth==2){
+            for(int i : arr1){
+                sum+=i;
+            }
+            if(sum<=M){
+                Max= Math.max(Max,sum);
+            }
+            return;
+        }
+        for (int i = 0; i < arr.length; i++) {
+            if(!visited[i]){
+                visited[i]=true;
+                arr1[depth]=arr[i];
+                dfs(depth+1);
+                visited[i]=false;
+
+            }
+
+        }
+
     }
 }

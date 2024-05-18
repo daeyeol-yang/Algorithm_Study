@@ -1,17 +1,0 @@
-
-L
-java:S3740"/Provide the parametrized type for this generic.(®ύµ8ΰεπ„ε1
-r	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ζΗσλϋÿÿÿÿ8αεπ„ε1
-7
-java:S1220""Move this file to a named package.8αεπ„ε1
-m
-java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(®ύµ8τεπ„ε1
-C	java:S131""Add a default case to this switch.(Τ΄ΨΥύÿÿÿÿ8χεπ„ε1
-G	java:S106"+Replace this use of System.out by a logger.(ΚΨ΅8ψεπ„ε1
-L	java:S106"+Replace this use of System.out by a logger.(΅ς†ώÿÿÿÿ8ψεπ„ε1
-G	java:S106"+Replace this use of System.out by a logger.(ρ†ΪΣ8ωεπ„ε1
-L	java:S106!"+Replace this use of System.out by a logger.(μΡΡΘÿÿÿÿÿ8ωεπ„ε1
-L	java:S106#"+Replace this use of System.out by a logger.(σΥΞÿÿÿÿÿ8ωεπ„ε1
-G	java:S106("+Replace this use of System.out by a logger.(Άπ‡8ΰ»ρ„ε1
-L	java:S106+"+Replace this use of System.out by a logger.(΅ς†ώÿÿÿÿ8α»ρ„ε1

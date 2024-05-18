@@ -1,8 +1,0 @@
-
-7
-java:S1220""Move this file to a named package.8ïàğÖº1
-f
-java:S3973("IUse indentation to denote the code conditionally executed by this "else".(ÔÍØ8ú‰×º1
-L	java:S106'"+Replace this use of System.out by a logger.(ìÑÑÈÿÿÿÿÿ8øàğÖº1
-L	java:S106)"+Replace this use of System.out by a logger.(óŠÕÎÿÿÿÿÿ8¹›†×º1
-j	java:S100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äè°€8øàğÖº1

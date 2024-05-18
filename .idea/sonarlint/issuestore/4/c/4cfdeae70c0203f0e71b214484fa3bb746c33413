@@ -1,9 +1,0 @@
-
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(жЗулыяяяя8ФпБХж1
-J
-java:S1604"(Make this anonymous inner class a lambda(йћЙцьяяяя8ХпБХж1
-7
-java:S1220""Move this file to a named package.8ХпБХж1
-L	java:S106$"+Replace this use of System.out by a logger.(Ќ­ЛЦюяяяя8ЯпБХж1
-P
-java:S1128".Remove this unused import 'java.util.HashMap'.(™”Ђщяяяя8ЯпБХж1

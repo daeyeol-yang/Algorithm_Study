@@ -1,18 +1,0 @@
-
-t	java:S127B"XRefactor the code in order to not assign to this loop counter from within the loop body.(¬»‰8ß¢×Èè1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÇóëûÿÿÿÿ8ß¢×Èè1
-m	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èö…é8ß¢×Èè1
-r	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìˆÃƒşÿÿÿÿ8à¢×Èè1
-7
-java:S1220""Move this file to a named package.8à¢×Èè1
-L	java:S106"+Replace this use of System.out by a logger.(­ËÖşÿÿÿÿ8»˜ÙÈè1
-D
-java:S1125="'Remove the unnecessary boolean literal.(ÚŸ‹¤8…£×Èè1
-M
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8…£×Èè1
-P
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8…£×Èè1
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8…£×Èè1
-X
-java:S1128"6Remove this unused import 'java.util.StringTokenizer'.(ÈÄ¬ñşÿÿÿÿ8…£×Èè1

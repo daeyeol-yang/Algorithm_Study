@@ -1,0 +1,13 @@
+
+r	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÆÆÎøÿÿÿÿ8§şÁÖ÷1
+m	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁü8§şÁÖ÷1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ÑÑ™8§şÁÖ÷1
+]	java:S125"<This block of commented-out lines of code should be removed.(‘Ç»¯øÿÿÿÿ8ªşÁÖ÷1
+
+java:S1130("lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(íä¸üÿÿÿÿ8«şÁÖ÷1
+L
+java:S1197("*Move the array designators [] to the type.(íä¸üÿÿÿÿ8«şÁÖ÷1
+W	java:S1251"<This block of commented-out lines of code should be removed.(“¥08«şÁÖ÷1
+L	java:S106G"+Replace this use of System.out by a logger.(”Ëòøÿÿÿÿ8Ô–ÄÖ÷1
+Q
+java:S1128 "4Remove this unused import 'java.io.FileInputStream'.(˜³ÉÓ8şªÂÖ÷1

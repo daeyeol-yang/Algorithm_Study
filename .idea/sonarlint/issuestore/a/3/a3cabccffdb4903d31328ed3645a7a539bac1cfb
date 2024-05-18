@@ -1,17 +1,0 @@
-
-Q
-java:S3740"/Provide the parametrized type for this generic.(ğğü­ûÿÿÿÿ8¥Ò—–ö1
-Q
-java:S3740"/Provide the parametrized type for this generic.(Ú†Áúÿÿÿÿ8¥Ò—–ö1
-Q
-java:S3740"/Provide the parametrized type for this generic.(¯‘İ ùÿÿÿÿ8¥Ò—–ö1
-L
-java:S10664"/Merge this if statement with the enclosing one.(ÌÏ¹İ8¥Ò—–ö1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÇóëûÿÿÿÿ8¥Ò—–ö1
-7
-java:S1220""Move this file to a named package.8¦Ò—–ö1
-o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 67 to the 15 allowed.(œû¿Ø8íÒ—–ö1
-L	java:S106["+Replace this use of System.out by a logger.(­ËÖşÿÿÿÿ8òÒ—–ö1
-ã
-java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 72 to 64, Complexity from 19 to 14, Nesting Level from 7 to 2, Number of Variables from 17 to 6.(œû¿Ø8òÒ—–ö1
