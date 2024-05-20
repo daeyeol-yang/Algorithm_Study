@@ -24,55 +24,59 @@ public class B12789 {
         int n =1;
         boolean check =false;
 
-        while (true){
-            if(!queue.isEmpty()) {
-                if (queue.peek() != n) {
-                    if (!delay.isEmpty()) {
-                        if (delay.peek() == n) {
-                            delay.pop();
-                            n++;
-                            continue;
-                        }
-                        delay.add(queue.poll());
+        while (!queue.isEmpty()) {
 
-                    }else {
-
-                        delay.add(queue.poll());
+            if (queue.peek() != n) {
+                if (!delay.isEmpty()) {
+                    if (delay.peek() == n) {
+                        delay.pop();
+                        n++;
+                        continue;
                     }
+                    delay.add(queue.poll());
+
                 } else {
-                    queue.poll();
-                    n++;
+
+                    delay.add(queue.poll());
                 }
+            } else {
+                queue.poll();
+                n++;
             }
+        }
+
+        while (!delay.isEmpty()){
+            if(delay.pop()!=n){
+                break;
+            }else{
+                n++;
+            }
+        }
+
 
             if(queue.isEmpty()&&delay.isEmpty()){
-                System.out.println("안녕1");
                 check=true;
-                break;
             }
 
             if(queue.isEmpty()&&!delay.isEmpty()){
-                System.out.println("안녕2");
                 if(delay.peek()!=n){
-                    break;
+                    check=false;
                 }
             }
 
             if(!queue.isEmpty()&&delay.isEmpty()){
-                System.out.println("안녕3");
                 if(queue.peek()!=n){
-                    break;
+                    check=false;
                 }
             }
 
             if(!queue.isEmpty()&&!delay.isEmpty()){
-                System.out.println("안녕4");
                 if(delay.peek()!=n&&queue.peek()!=n){
-                    break;
+                    check=false;
                 }
             }
 
-        }
+
 
         if(check){
             System.out.println("Nice");
