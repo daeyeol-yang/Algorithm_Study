@@ -22,36 +22,35 @@ public class B17413 {
         StringBuilder sb1 = new StringBuilder();
         boolean check = false;
 
-        while (!queue.isEmpty()){
-            if(queue.peek()=='<'){
+        while (!queue.isEmpty()) {
+            if (queue.peek() == '<') {
 
-                while (queue.peek()!='>'){
+                while (queue.peek() != '>') {
                     sb.append(queue.poll());
                 }
                 sb.append(queue.poll());
-            }else {
-                if(!queue.isEmpty()) {
-                    while (queue.peek() != '<') {
+            } else {
+                while (queue.peek() != '<') {
 
-                        if(queue.peek()==' '){
-                            queue.poll();
-                            check=true;
-                            break;
-                        }
-                        sb1.append(queue.poll());
-
-                        if(queue.isEmpty()){
-                            break;
-                        }
+                    if (queue.peek() == ' ') {
+                        queue.poll();
+                        check = true;
+                        break;
                     }
+                    sb1.append(queue.poll());
 
-                    sb.append(sb1.reverse());
-                    if(check){
-                        sb.append(" ");
-                        check=false;
+                    if (queue.isEmpty()) {
+                        break;
                     }
-                    sb1=new StringBuilder();
                 }
+
+                sb.append(sb1.reverse());
+                if (check) {
+                    sb.append(" ");
+                    check = false;
+                }
+                sb1 = new StringBuilder();
+
             }
 
         }
