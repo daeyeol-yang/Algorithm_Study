@@ -13,17 +13,33 @@ public class B4134 {
             long num = Long.parseLong(br.readLine());
 
             while (true){
-                num=num+1;
                 if(isPrime(num)){
                     System.out.println(num);
                     break;
                 }
+                num++;
 
             }
         }
     }
 
-    private static boolean isPrime(long num){
+    private static boolean isPrime(long n){
+        if (n == 1) return false;
 
+
+        if (n==2||n == 3) return true;
+
+
+        if (n % 2 == 0 || n % 3 == 0) return false;
+
+        // 소수는 6*k+1 또는 6*k-1이다. 즉 소수에게 나누어 떨어지는 지 확인하는 경우
+        for (long i = 5; i * i <= n; i += 6) {
+            if (n % i == 0 || n % (i + 2) == 0) {
+                return false;
+            }
+        }
+
+
+        return true;
     }
 }
