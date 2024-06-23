@@ -25,7 +25,10 @@ public class B2485 {
         //System.out.println(answer);
 
         int solution = (arr[N-1]-arr[0])/answer+1;
+
                 //    17 14 11 8 5 2  18 15 12 9 6 3
+
+
 
         System.out.println(solution-N);
     }
