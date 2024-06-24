@@ -3,6 +3,10 @@ package 백준;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import java.util.StringTokenizer;
 
 public class B1735 {
@@ -15,15 +19,14 @@ public class B1735 {
         int B = Integer.parseInt(st.nextToken());
         int B1 = Integer.parseInt(st.nextToken());
 
-        int son = A*B1 + B*A1;
-        int parent = A1*B1;
+        int son = A * B1 + B * A1;
+        int parent = A1 * B1;
 
         int gcd1 = gcd(son, parent);
 
-        System.out.println(son/gcd1 +" "+parent/gcd1);
 
+        System.out.println(son / gcd1 + " " + parent / gcd1);
     }
-
     private static int gcd(int a, int b){
         if(b==0){
             return a;
