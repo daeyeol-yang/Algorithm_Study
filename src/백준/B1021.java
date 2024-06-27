@@ -22,6 +22,9 @@ public class B1021 {
 
         Deque<Integer> deque = new LinkedList<>();
 
+        //LinkedList<Integer> deque3 = new LinkedList<>();
+        //앞으로 덱 문제는 LinkedList를 이용해서 풀기 특히 indexOf 구하는 문제!!
+
         for (int i = 1; i <= N ; i++) {
             deque.add(i);
         }
