@@ -16,6 +16,8 @@ public class B1934 {
             int b = Integer.parseInt(st.nextToken());
             System.out.println(lcm(a,b));
         }
+
+
     }
 
     public static int lcm(int a, int b){
